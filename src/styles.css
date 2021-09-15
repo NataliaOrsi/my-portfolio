@@ -2,11 +2,14 @@
   --heading-font: "Lexend Deca", sans-serif;
   --default-font: 'Poppins', sans-serif;
   --branding-color: #f67280;
-  --secondary-color: #f9f7fe;
+  --heading-color: #6c5b7c;
+  --secondary-color: #c06c84;
+  --third-color: #f8b595;
 }
 
 body {
   font-family: var(--default-font);
+  background: rgba(246, 114, 128, 0.2);
 }
 
 h1, h2, h3 {
@@ -15,7 +18,8 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 64px;
+  color: var(--third-color);
 }
 
 h2 {
@@ -23,25 +27,38 @@ h2 {
 }
 
 p {
-    font-size: 28px;
+    font-size: 36px;
+    color: var(--heading-color);
+    font-weight: bold;
 }
 
 .hero {
     text-align: center;
-    padding: 160px 20px;
+    margin: 20px;
+    padding: 60px 20px;
     background-color: var(--secondary-color);
+    border-radius: 30px;
 }
 
 .hero h2 {
-  font-size: 36px;
-  font-weight: bold;
-  margin: 0;
+  font-family: var(--default-font);
+  line-height: 2;
+  font-size: 28px;
+  color: var(--third-color);
 }
 
-.hero h3 {
-    font-family: var(--default-font);
-    line-height: 2;
-    font-size: 28px;
+.hero p {
+    margin: auto 200px;
+    font-size: 20px;
+    color: white;
+}
+
+.hero-content {
+    margin-top: 100px;
+}
+
+.hero-name {
+    color: var(--heading-color);
 }
 
 .btn-branding {
@@ -51,6 +68,23 @@ p {
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.featured-projects img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.featured-projects h3 {
+    color: var(--heading-color);
+}
+
+.featured-projects p {
+    color: var(--heading-color);
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
 }
 
 .project-description {
