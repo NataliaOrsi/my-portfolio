@@ -10,6 +10,7 @@
 body {
   font-family: var(--default-font);
   background: rgba(246, 114, 128, 0.2);
+  margin: 0 60px 60px;
 }
 
 h1, h2, h3 {
@@ -23,7 +24,12 @@ h1 {
 }
 
 h2 {
-    font-size: 64px;
+    font-size: 28px;
+    color: var(--third-color);
+}
+
+h3 {
+    color: var(--heading-color);
 }
 
 p {
@@ -34,7 +40,6 @@ p {
 
 .hero {
     text-align: center;
-    margin: 20px;
     padding: 60px 20px;
     background-color: var(--secondary-color);
     border-radius: 30px;
@@ -44,7 +49,6 @@ p {
   font-family: var(--default-font);
   line-height: 2;
   font-size: 28px;
-  color: var(--third-color);
 }
 
 .hero p {
@@ -87,18 +91,41 @@ p {
     font-weight: normal;
 }
 
-.project-description {
-    padding: 120px 60px;
+.about-description {
+    margin: 120px 200px;
+    padding: 30px 60px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
 }
 
-.project-description h2 {
-    font-family: "Playfair Display", serif;
+.about-description h1 {
+    color: var(--heading-color);
+    font-size: 46px;
 }
 
-.project-description p {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 30px;
+.about-description p {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: justify;
+}
+.about-description h3 {
+    color: var(--third-color);
+}
+.about-description ul {
+    color: white;
+    font-size: 24px;
+}
+
+.featured-skills {
+    margin-right:80px;
+    margin-left: 80px;
+    font-size: 60px;
+    color: var(--heading-color);
+}
+
+.featured-skills p {
+    font-size: 20px;
 }
 
 @media (max-width: 900px) {
