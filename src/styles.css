@@ -10,7 +10,7 @@
 body {
   font-family: var(--default-font);
   background: rgba(246, 114, 128, 0.2);
-  margin: 120px 60px 60px;
+  margin: 0 60px 60px;
 }
 
 h1, h2, h3 {
@@ -50,7 +50,7 @@ ul {
 
 .hero {
     text-align: center;
-    padding: 60px 20px;
+    padding: 10px 20px;
     background-color: var(--secondary-color);
     border-radius: 30px;
 }
@@ -72,6 +72,26 @@ ul {
 }
 
 .hero-name {
+    color: var(--heading-color);
+}
+
+.homepage-navbar-links {
+    color: var(--third-color);
+    font-weight: bold;
+}
+
+.homepage-navbar-links:hover,
+.homepage-navbar-links.active {
+    color: white;
+}
+
+.personal-navbar-links {
+    color: var(--branding-color);
+    font-weight: bold;
+}
+
+.personal-navbar-links:hover,
+.personal-navbar-links.active {
     color: var(--heading-color);
 }
 
@@ -140,6 +160,7 @@ ul {
 
 .work-heading h1 {
     color: var(--branding-color);
+    margin-top: 120px;
 }
 
 .work-content h2 {
@@ -180,6 +201,11 @@ ul {
     display: block;
     margin: 0 auto;
     color: var(--secondary-color)
+}
+
+.contact-form button {
+    border: 1 solid var(--secondary-color);
+    transition: 200ms all easy-in-out;
 }
 
 @media (max-width: 900px) {
