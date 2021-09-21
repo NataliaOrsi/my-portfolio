@@ -40,8 +40,9 @@ p {
 
 ul {
     list-style: none;
-    font-size: 24px;
+    font-size: 30px;
     color: var(--secondary-color);
+    margin-top: 80px;
 }
 
 .index-body {
@@ -196,16 +197,9 @@ ul {
     color: var(--heading-color);
 }
 
-.contact-form {
-    width: 85%;
+.contact-image {
     display: block;
-    margin: 0 auto;
-    color: var(--secondary-color)
-}
-
-.contact-form button {
-    border: 1 solid var(--secondary-color);
-    transition: 200ms all easy-in-out;
+    margin: 0px auto;
 }
 
 @media (max-width: 900px) {
