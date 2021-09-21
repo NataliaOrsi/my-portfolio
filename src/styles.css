@@ -10,7 +10,7 @@
 body {
   font-family: var(--default-font);
   background: rgba(246, 114, 128, 0.2);
-  margin: 0 60px 60px;
+  margin: 0 60px
 }
 
 h1, h2, h3 {
@@ -38,11 +38,46 @@ p {
     font-weight: bold;
 }
 
-ul {
-    list-style: none;
-    font-size: 30px;
+footer {
+    height: 100px;
+    margin: 120px 200px 0;
+    border-radius: 30px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h3 {
+    font-size: 48px;
+    color: var(--third-color)
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer p a {
+    color: var(--heading-color);
+}
+
+footer p a:hover {
     color: var(--secondary-color);
-    margin-top: 80px;
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--heading-color);
+    padding: 10px 14px;
+    font-size: 24px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    border-radius: 120px;
+    margin: 30px 120px 100px;
+    padding: 30px 120px;
 }
 
 .index-body {
@@ -77,23 +112,23 @@ ul {
 }
 
 .homepage-navbar-links {
-    color: var(--third-color);
+    color: var(--third-color) !important;
     font-weight: bold;
 }
 
 .homepage-navbar-links:hover,
 .homepage-navbar-links.active {
-    color: white;
+    color: white !important;
 }
 
 .personal-navbar-links {
-    color: var(--branding-color);
+    color: var(--branding-color) !important;
     font-weight: bold;
 }
 
 .personal-navbar-links:hover,
 .personal-navbar-links.active {
-    color: var(--heading-color);
+    color: var(--heading-color) !important;
 }
 
 .btn-branding {
@@ -188,6 +223,15 @@ ul {
     margin-left: 130px;
 }
 
+.contact-box-link {
+    font-size: 24px;
+    color: var(--third-color)
+}
+
+.contact-box-link:hover {
+    color: white;
+}
+
 .contact-data {
     margin-top: 120px;
 }
@@ -195,6 +239,13 @@ ul {
 .contact-data a {
     text-decoration: none;
     color: var(--heading-color);
+}
+
+.contact-data ul {
+    list-style: none;
+    font-size: 30px;
+    color: var(--secondary-color);
+    margin-top: 80px;
 }
 
 .contact-image {
